@@ -19,5 +19,15 @@ def getCheck:
 def postCheck
     return tasks[3]
 """
+@app.route('/check')
+def method(): 
+	
+	if request.method == 'POST':
+	    return 'This is a POST request', 200
+	elif request.method == 'GET':
+	    return 'This is a GET request', 200
+	else: 
+	    return 405
+
 if __name__ == '__main__':
     app.run(host = '0.0.0.0', port=81)
