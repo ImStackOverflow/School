@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-times = 4
+times = 5 
 length = []
 lengthDiff = []
 frequency = []
