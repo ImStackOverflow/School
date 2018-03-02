@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-times = 5 
+times = 6 
 length = []
 lengthDiff = []
 frequency = []
@@ -13,22 +13,21 @@ dickLength = 4 #string lenght in cm
 #calculates a frequency given length
 #length is given in cm bitch
 def findFrequency(initialLengthBitch):
-	t = 2*3.14159*((initialLengthBitch/980)**(1/2))
-	print('init time: '+str(t))
+	t = 2*3.14159*((initialLengthBitch/9.8)**(1/2))
+	print('init time ifgsdf: '+str(t))
 	return 1/t
 
 #does formula to show length
 #i.e. f(frequency) = length
 def generate():
 	#either use inital frequency or length BITCH
-	'''if ImAFreq:
-		global initalFreq 
-		initalFreq = findFrequency(dickLength)
+	if not ImAFreq:
+		#global initalFreq 
+		#initalFreq = findFrequency(dickLength)
 	print("inital freq is: "+ str(initalFreq))
-	'''
 	for n in range(1,times):
 	   freq = n*initalFreq
-	   k = 4 * 3.14**2 * freq**2 #new length
+	   k = 4 * 3.14**2 * freq**2 #old length
 	   j = 4 * 3.14**2 * (freq-1)**2 #old length
 	   frequency.append(freq)
 	   length.append(int(k))
@@ -60,9 +59,10 @@ def graph():
 	plt.show()
 
 if __name__ == '__main__':
-	generate()
-	table()
-	graph()
+	findFrequency(600)
+	#generate()
+	#table()
+	#graph()
 
 
 
