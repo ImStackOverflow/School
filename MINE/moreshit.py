@@ -1,20 +1,21 @@
+
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-times = 6 
+times = 6
 length = []
 lengthDiff = []
 frequency = []
-form = '{:^8} {:>8} {:>8}'
-ImAFreq = False #initial frequency specified
+ImAFreq = 0 #initial frequency specified, otherwise length specified
 initalFreq = 1
-dickLength = 4 #string lenght in cm
+dickLength = 25 #string lenght in cm
 
 #calculates a frequency given length
 #length is given in cm bitch
 def findFrequency(initialLengthBitch):
-	t = 2*3.14159*((initialLengthBitch/9.8)**(1/2))
-	print('init time ifgsdf: '+str(t))
+	t = float(initialLengthBitch)/980
+	t = t**(0.5)
+	t *= 2*3.14159
 	return 1/t
 
 #does formula to show length
@@ -22,22 +23,25 @@ def findFrequency(initialLengthBitch):
 def generate():
 	#either use inital frequency or length BITCH
 	if not ImAFreq:
-		#global initalFreq 
-		#initalFreq = findFrequency(dickLength)
-	print("inital freq is: "+ str(initalFreq))
+		f1 = findFrequency(dickLength)
+	else:
+		f1 = int(initalFreq) 
+	#print("inital freq is: "+ str(f1))
 	for n in range(1,times):
-	   freq = n*initalFreq
-	   k = 4 * 3.14**2 * freq**2 #old length
-	   j = 4 * 3.14**2 * (freq-1)**2 #old length
+	   freq = n*f1
+	   k = 4 * 3.14**2 * freq**2 #length from frequency
+	   k = 980/k
+	   #j = 4 * 3.14**2 * (freq-1)**2 #old length
 	   frequency.append(freq)
-	   length.append(int(k))
-	   lengthDiff.append(int(k-j))
-	   print("frequency is: "+str(freq))
+	   length.append(k)
+	   x = (0 if n-1 < 0 else n-2)
+	   lengthDiff.append(abs(k-length[x]))
+	   #print("frequency is: "+str(freq))
 
 def table():
-	print(form.format("frequency", "length(cm)", "lengthDiff(cm)")) #table header
+	print('{:^8} {:>8} {:>8}'.format("frequency(Hz)	", "length(cm)", "lengthDiff(cm)")) #table header
 	for f,l,ld in zip(frequency, length, lengthDiff):
-   		print(form.format(f, l, ld)) #print table
+   		print('{:^12.2f} {:>12.2f} {:>12.2f}'.format(f, l, ld)) #print table
 
 def graph():
 	lenLeg = mpatches.Patch(color='red', label = 'length') #plot legend shit
@@ -46,10 +50,10 @@ def graph():
 	#fill table and plot
 	fig, lengGraph = plt.subplots()
 	lendiffGraph = lengGraph.twinx()
-	for f,l,ld in zip(frequency, length, lengthDiff):
-	   lengGraph.plot(f,l, 'ro') #plot length
-	   lendiffGraph.plot(f,ld, 'go') #plot lengthDiff
-	
+	lengGraph.plot(frequency, length, 'b--')
+	lendiffGraph.plot(frequency, lengthDiff, 'r--')
+
+	#show shit
 	lengGraph.axis([0,max(frequency),0,max(length)])
 	lendiffGraph.axis([0,max(frequency),0,max(length)/2])
 	lengGraph.set_ylabel('length motherFucker')
@@ -59,10 +63,9 @@ def graph():
 	plt.show()
 
 if __name__ == '__main__':
-	findFrequency(600)
-	#generate()
-	#table()
-	#graph()
+	generate()
+	table()
+	graph()
 
 
 
