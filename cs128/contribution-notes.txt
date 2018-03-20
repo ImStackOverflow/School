@@ -1,0 +1,4 @@
+ghchen: partitions, broadcasting requests, add/delete nodes
+lzhang75: first part of hwk2. create and connect routes.
+wemoon: fixed consistent hash. implemented view update
+blederma: fixed some app instruction error, worked on part 2.

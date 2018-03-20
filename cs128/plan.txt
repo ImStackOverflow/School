@@ -1,0 +1,10 @@
+INTEGRATION BABY 
+create flask service calls 
+	create server
+	specify which server code to use based on environment varriables
+
+
+polish server instance() code
+	post/put method for instance function doesnt take pass both paramaters
+	doesnt catch exceptions perfectly
+
