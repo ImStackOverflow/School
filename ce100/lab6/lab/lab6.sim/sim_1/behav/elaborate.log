@@ -1,0 +1,21 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 6bdf4df8a1d74db3be774dd21e4b4ed4 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fukingstate_behav xil_defaultlib.fukingstate xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/Desktop/lab6/lab6.srcs/sources_1/new/fuckingsteak.v:54]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/Desktop/lab6/lab6.srcs/sources_1/new/fuckingsteak.v:55]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/Desktop/lab6/lab6.srcs/sources_1/new/fuckingsteak.v:56]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/Desktop/lab6/lab6.srcs/sources_1/new/fuckingsteak.v:57]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/Desktop/lab6/lab6.srcs/sources_1/new/fuckingsteak.v:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.fuckingsteak
+Compiling module xil_defaultlib.fukingstate
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fukingstate_behav

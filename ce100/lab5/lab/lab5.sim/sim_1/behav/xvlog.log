@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/fux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fux4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/random.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module random
+INFO: [VRFC 10-2458] undeclared symbol reset, assumed default net type wire [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/random.v:34]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/countUD4L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countUD4L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/fux8to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fux8to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/new/timeshit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timeshit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/new/shitfuck.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shitfuck
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/ringcounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ringcounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/LEDshifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEDshifter
+INFO: [VRFC 10-2458] undeclared symbol reset, assumed default net type wire [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/LEDshifter.v:34]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/lab5_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-2458] undeclared symbol XLXN_78, assumed default net type wire [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/lab5_clks.v:247]
+INFO: [VRFC 10-2458] undeclared symbol qsec0, assumed default net type wire [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/lab5_clks.v:268]
+INFO: [VRFC 10-2458] undeclared symbol qsec2, assumed default net type wire [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/lab5_clks.v:269]
+INFO: [VRFC 10-2458] undeclared symbol qsec3, assumed default net type wire [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/lab5_clks.v:278]
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/hex7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sources_1/new/topgun.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topgun
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.srcs/sim_1/new/fuckme.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fuckme
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/lab5/lab5.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

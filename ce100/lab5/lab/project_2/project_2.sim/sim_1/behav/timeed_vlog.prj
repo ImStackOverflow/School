@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/LEDshifter.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/topgun.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Desktop/fux4to1.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Desktop/fux8to1.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Desktop/selector.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Desktop/ringcounter.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Desktop/hex7seg.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/playershit.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/random.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Desktop/edgeD.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Desktop/countUD4L.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/fuckingdisplay.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/StateoftheUnion.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/imports/Downloads/lab5_clks.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/fuckingTIME.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sim_1/imports/Desktop/cockring.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sim_1/new/time.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

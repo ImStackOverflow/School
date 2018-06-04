@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu May 10 12:26:03 2018
+# Process ID: 6388
+# Current directory: C:/Users/ghchen/Desktop/lab5/project_2/project_2.runs/synth_1
+# Command line: vivado.exe -log topgun.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topgun.tcl
+# Log file: C:/Users/ghchen/Desktop/lab5/project_2/project_2.runs/synth_1/topgun.vds
+# Journal file: C:/Users/ghchen/Desktop/lab5/project_2/project_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source topgun.tcl -notrace

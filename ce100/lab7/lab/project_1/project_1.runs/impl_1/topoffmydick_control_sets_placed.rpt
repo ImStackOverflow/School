@@ -1,0 +1,130 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Fri Jun 01 03:55:34 2018
+| Host         : BE104PC12 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file topoffmydick_control_sets_placed.rpt
+| Design       : topoffmydick
+| Device       : xc7a35t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    64 |
+| Unused register locations in slices containing registers |   225 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              80 |           50 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               1 |            1 |
+| Yes          | No                    | No                     |             278 |          146 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+------------------------------------------------------+--------------------+------------------+----------------+
+|         Clock Signal         |                     Enable Signal                    |  Set/Reset Signal  | Slice Load Count | Bel Load Count |
++------------------------------+------------------------------------------------------+--------------------+------------------+----------------+
+|  not_so_slow/slowclk/clk_out |                                                      | Toplevelshit/reset |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME1/redstate/q2                           |                    |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | fuckingtime/bottom/tick                              |                    |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/CE0                              |                    |                1 |              1 |
+|  not_so_slow/slowclk/clk_out | fuckingline2/redstate/reset                          |                    |                2 |              2 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME5/redstate/reset                        |                    |                3 |              3 |
+|  not_so_slow/slowclk/clk_out | fuckingline1/redstate/reset                          |                    |                1 |              3 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME/redstate/reset                         |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | fuckingline4/redstate/reset                          |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME4/redstate/reset                        |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME2/redstate/reset                        |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME3/redstate/reset                        |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | fuckingline3/redstate/reset                          |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | AHHHHH/bottommin/enable                              |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | AHHHHH/bottomsecond/enable_1                         |                    |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_38/I_36_31_n_0              |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_39/CEO                      |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_40/CEO                      |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | Toplevelshit/incrwin                                 |                    |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | Toplevelshit/loss                                    |                    |                1 |              4 |
+|  not_so_slow/slowclk/clk_out | not_so_slow/slowclk/XLXI_45/CEO                      |                    |                2 |              4 |
+|  not_so_slow/slowclk/clk_out | fuckingline5/verticalshit/bottombitch/enable_0       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline5/redstate/enable                         |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline5/redstate/reset                          |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline6/verticalshit/bottombitch/enable_0       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline6/redstate/enable                         |                    |                4 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline6/redstate/reset                          |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME3/redstate/enable                       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME4/horizontalshit/bottombitch/enable_0   |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME4/redstate/enable                       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME5/horizontalshit/bottombitch/enable_0   |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME5/redstate/enable                       |                    |                4 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline4/redstate/enable                         |                    |                4 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME6/horizontalshit/bottombitch/enable_0   |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME6/redstate/enable                       |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline/verticalshit/bottombitch/enable_0        |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline/redstate/enable                          |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline/redstate/reset                           |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline1/verticalshit/bottombitch/enable_0       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline1/redstate/enable                         |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline2/verticalshit/bottombitch/enable_0       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline2/redstate/enable                         |                    |                4 |              5 |
+|  not_so_slow/slowclk/clk_out | foeplay/vertdick/upbitch/enable                      |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline3/verticalshit/bottombitch/enable_0       |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline3/redstate/enable                         |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | foeplay/vertdick/upbitch/enable_0                    |                    |                1 |              5 |
+|  not_so_slow/slowclk/clk_out | foeplay/vertdick/upbitch/endframe                    |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | AHHHHH/bottommin/enable_0                            |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | AHHHHH/bottomsecond/enable                           |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | foeplay/horizon/bottombitch/enable                   |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME/horizontalshit/bottombitch/enable_0    |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME/redstate/enable                        |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME1/horizontalshit/bottombitch/enable_0   |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME3/horizontalshit/bottombitch/enable_0   |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME1/redstate/enable                       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | lauracroft/fuckingposition/horizon/upbitch/enable    |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | lauracroft/fuckingposition/horizon/upbitch/enable_0  |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | lauracroft/fuckingposition/vertical/upbitch/enable   |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | lauracroft/fuckingposition/vertical/upbitch/enable_0 |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME2/horizontalshit/bottombitch/enable_0   |                    |                2 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME2/redstate/enable                       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | fuckingline4/verticalshit/bottombitch/enable_0       |                    |                3 |              5 |
+|  not_so_slow/slowclk/clk_out | FUCKINGKILLME6/redstate/reset                        |                    |                3 |              6 |
+|  not_so_slow/slowclk/clk_out |                                                      |                    |               50 |             80 |
++------------------------------+------------------------------------------------------+--------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     4 |
+| 2      |                     1 |
+| 3      |                     2 |
+| 4      |                    14 |
+| 5      |                    41 |
+| 6      |                     1 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+

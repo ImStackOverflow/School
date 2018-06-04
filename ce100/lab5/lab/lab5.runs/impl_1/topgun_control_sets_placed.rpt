@@ -1,0 +1,80 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
+| Date         : Tue May 15 05:14:53 2018
+| Host         : BE104PC02 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file topgun_control_sets_placed.rpt
+| Design       : topgun
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    14 |
+| Unused register locations in slices containing registers |    49 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |            5 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              43 |           18 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              36 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------------+------------------------------------+------------------+------------------+----------------+
+|         Clock Signal         |            Enable Signal           | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------------------+------------------------------------+------------------+------------------+----------------+
+|  slowit/slowclk/clk_out      | slowit/slowclk/qsec3               |                  |                1 |              1 |
+|  slowit/slowclk/clk_out      | slowit/slowclk/XLXI_45/CEO         |                  |                1 |              2 |
+|  slowit/slowclk/clk_out      | state/enable                       |                  |                1 |              4 |
+|  slowit/slowclk/clk_out      | state/enable_1                     |                  |                2 |              4 |
+|  slowit/slowclk/clk_out      | state/incp1                        |                  |                1 |              4 |
+|  slowit/slowclk/clk_out      | state/incp2                        |                  |                2 |              4 |
+|  slowit/my_clk_inst/clk_out1 |                                    |                  |                2 |              4 |
+|  slowit/my_clk_inst/clk_out1 | slowit/slowclk/XLXI_38/CEO         |                  |                2 |              4 |
+|  slowit/my_clk_inst/clk_out1 | slowit/slowclk/XLXI_37/I_36_31_n_0 |                  |                2 |              4 |
+|  slowit/slowclk/clk_out      | slowit/slowclk/CE0                 | state/reset      |                3 |              6 |
+|  slowit/slowclk/clk_out      | slowit/slowclk/CE0                 |                  |                4 |              8 |
+|  slowit/slowclk/clk_out      | slowit/slowclk/XLXI_40/TC          |                  |                2 |              8 |
+|  slowit/slowclk/clk_out      |                                    |                  |                3 |             12 |
+|  slowit/slowclk/clk_out      | slowit/slowclk/run06_out           | shitter/lastled  |                8 |             30 |
++------------------------------+------------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     1 |
+| 2      |                     1 |
+| 4      |                     7 |
+| 6      |                     1 |
+| 8      |                     2 |
+| 12     |                     1 |
+| 16+    |                     1 |
++--------+-----------------------+
+
+

@@ -1,0 +1,66 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto a480079df7aa4169a3752e3435b42824 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fuckme_behav xil_defaultlib.fuckme xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/new/topgun.v:45]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:66]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:69]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:72]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:75]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:78]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:81]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:84]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v:87]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/countUD4L.v:82]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/countUD4L.v:83]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/countUD4L.v:84]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port R [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/countUD4L.v:85]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port e [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/fux8to1.v:37]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port e [C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/fux8to1.v:38]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.XOR2
+Compiling module unisims_ver.ffsrce_fdce
+Compiling module unisims_ver.FDCE
+Compiling module xil_defaultlib.FTCE_MXILINX_clkcntrl4
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.AND4
+Compiling module unisims_ver.x_lut3_mux4
+Compiling module unisims_ver.x_lut3_mux4_reduced_0
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.AND3
+Compiling module unisims_ver.AND2
+Compiling module unisims_ver.VCC
+Compiling module xil_defaultlib.CB4CE_MXILINX_clkcntrl4
+Compiling module unisims_ver.BUF
+Compiling module xil_defaultlib.clkcntrl4
+Compiling module unisims_ver.STARTUPE2
+Compiling module xil_defaultlib.lab5_clks
+Compiling module unisims_ver.sffsrce_fdre
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module unisims_ver.FDRE
+Compiling module xil_defaultlib.shit
+Compiling module xil_defaultlib.shitfuck
+Compiling module xil_defaultlib.LEDshifter
+Compiling module xil_defaultlib.random
+Compiling module xil_defaultlib.countUD4L
+Compiling module xil_defaultlib.timeshit
+Compiling module xil_defaultlib.ringcounter
+Compiling module xil_defaultlib.selector
+Compiling module xil_defaultlib.fux4to1
+Compiling module xil_defaultlib.fux8to1
+Compiling module xil_defaultlib.hex7seg
+Compiling module xil_defaultlib.topgun
+Compiling module xil_defaultlib.fuckme
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fuckme_behav

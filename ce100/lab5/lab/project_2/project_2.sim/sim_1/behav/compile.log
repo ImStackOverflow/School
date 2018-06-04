@@ -1,0 +1,47 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/LEDshifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LEDshifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/topgun.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topgun
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/fux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fux4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/fux8to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fux8to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/ringcounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ringcounter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/hex7seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/playershit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module playershit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/random.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module random
+INFO: [VRFC 10-2458] undeclared symbol reset, assumed default net type wire [C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/random.v:31]
+INFO: [VRFC 10-2458] undeclared symbol enable, assumed default net type wire [C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/random.v:31]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/edgeD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module edgeD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/countUD4L.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module countUD4L
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/fuckingdisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fuckingdisplay
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/StateoftheUnion.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StateoftheUnion
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Downloads/lab5_clks.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab5_clks
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clkcntrl4
+INFO: [VRFC 10-2458] undeclared symbol XLXN_78, assumed default net type wire [C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Downloads/lab5_clks.v:247]
+INFO: [VRFC 10-2458] undeclared symbol qsec0, assumed default net type wire [C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Downloads/lab5_clks.v:268]
+INFO: [VRFC 10-2458] undeclared symbol qsec2, assumed default net type wire [C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Downloads/lab5_clks.v:269]
+INFO: [VRFC 10-2458] undeclared symbol qsec3, assumed default net type wire [C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Downloads/lab5_clks.v:278]
+INFO: [VRFC 10-311] analyzing module FTCE_MXILINX_clkcntrl4
+INFO: [VRFC 10-311] analyzing module CB4CE_MXILINX_clkcntrl4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/fuckingTIME.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fuckingTIME
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sim_1/imports/Desktop/cockring.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cockring
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sim_1/new/time.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timeed
+INFO: [VRFC 10-2458] undeclared symbol bu, assumed default net type wire [C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sim_1/new/time.v:20]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ghchen/Desktop/lab5/project_2/project_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

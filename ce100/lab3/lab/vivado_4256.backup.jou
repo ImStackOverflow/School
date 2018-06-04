@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Apr 19 13:11:59 2018
+# Process ID: 4256
+# Current directory: C:/Users/ghchen/Desktop/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5004 C:\Users\ghchen\Desktop\project_1\project_1.xpr
+# Log file: C:/Users/ghchen/Desktop/project_1/vivado.log
+# Journal file: C:/Users/ghchen/Desktop/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ghchen/Desktop/project_1/project_1.xpr
+set_property source_mgmt_mode None [current_project]

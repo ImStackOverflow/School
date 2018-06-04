@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Apr 19 18:55:50 2018
+# Process ID: 7720
+# Current directory: C:/Users/ghchen/Desktop/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7480 C:\Users\ghchen\Desktop\project_1\project_1.xpr
+# Log file: C:/Users/ghchen/Desktop/project_1/vivado.log
+# Journal file: C:/Users/ghchen/Desktop/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ghchen/Desktop/project_1/project_1.xpr
+launch_simulation
+source lab2_tests.tcl
+add_wave {{/lab2_tests/UUT/calc}} 
+relaunch_sim
+add_wave {{/lab2_tests/UUT/calc/b1}} 
+relaunch_sim
+add_wave {{/lab2_tests/UUT/calc/b2/summed}} 
+relaunch_sim
+add_wave {{/lab2_tests/UUT/calc/b1}} 
+add_wave {{/lab2_tests/UUT/calc/b2}} 
+add_wave {{/lab2_tests/UUT/calc/b1/summed}} 
+relaunch_sim

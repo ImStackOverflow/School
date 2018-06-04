@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fuckme_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fuckme" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1747603000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="118"></NameColumnWidth>
+      <ValueColumnWidth column_width="52"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject fp_name="/fuckme/clkin" type="logic">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/btnc" type="logic">
+      <obj_property name="ElementShortName">btnc</obj_property>
+      <obj_property name="ObjectShortName">btnc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/btnu" type="logic">
+      <obj_property name="ElementShortName">btnu</obj_property>
+      <obj_property name="ObjectShortName">btnu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/btnd" type="logic">
+      <obj_property name="ElementShortName">btnd</obj_property>
+      <obj_property name="ObjectShortName">btnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/btnr" type="logic">
+      <obj_property name="ElementShortName">btnr</obj_property>
+      <obj_property name="ObjectShortName">btnr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/sw" type="logic">
+      <obj_property name="ElementShortName">sw</obj_property>
+      <obj_property name="ObjectShortName">sw</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider192">
+   </wvobject>
+   <wvobject fp_name="/fuckme/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/btnc" type="logic">
+      <obj_property name="ElementShortName">btnc</obj_property>
+      <obj_property name="ObjectShortName">btnc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/btnu" type="logic">
+      <obj_property name="ElementShortName">btnu</obj_property>
+      <obj_property name="ObjectShortName">btnu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/btnd" type="logic">
+      <obj_property name="ElementShortName">btnd</obj_property>
+      <obj_property name="ObjectShortName">btnd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/led" type="logic">
+      <obj_property name="ElementShortName">led</obj_property>
+      <obj_property name="ObjectShortName">led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/tup" type="logic">
+      <obj_property name="ElementShortName">tup</obj_property>
+      <obj_property name="ObjectShortName">tup</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/incu" type="logic">
+      <obj_property name="ElementShortName">incu</obj_property>
+      <obj_property name="ObjectShortName">incu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/incd" type="logic">
+      <obj_property name="ElementShortName">incd</obj_property>
+      <obj_property name="ObjectShortName">incd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/showscore" type="logic">
+      <obj_property name="ElementShortName">showscore</obj_property>
+      <obj_property name="ObjectShortName">showscore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/runit" type="logic">
+      <obj_property name="ElementShortName">runit</obj_property>
+      <obj_property name="ObjectShortName">runit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/ldtime" type="logic">
+      <obj_property name="ElementShortName">ldtime</obj_property>
+      <obj_property name="ObjectShortName">ldtime</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/showtime" type="logic">
+      <obj_property name="ElementShortName">showtime</obj_property>
+      <obj_property name="ObjectShortName">showtime</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/idle" type="logic">
+      <obj_property name="ElementShortName">idle</obj_property>
+      <obj_property name="ObjectShortName">idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/count" type="logic">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/poll" type="logic">
+      <obj_property name="ElementShortName">poll</obj_property>
+      <obj_property name="ObjectShortName">poll</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/p1" type="logic">
+      <obj_property name="ElementShortName">p1</obj_property>
+      <obj_property name="ObjectShortName">p1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/p2" type="logic">
+      <obj_property name="ElementShortName">p2</obj_property>
+      <obj_property name="ObjectShortName">p2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/penis1" type="logic">
+      <obj_property name="ElementShortName">penis1</obj_property>
+      <obj_property name="ObjectShortName">penis1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/penis2" type="logic">
+      <obj_property name="ElementShortName">penis2</obj_property>
+      <obj_property name="ObjectShortName">penis2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/state/both" type="logic">
+      <obj_property name="ElementShortName">both</obj_property>
+      <obj_property name="ObjectShortName">both</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/run" type="logic">
+      <obj_property name="ElementShortName">run</obj_property>
+      <obj_property name="ObjectShortName">run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/ld" type="logic">
+      <obj_property name="ElementShortName">ld</obj_property>
+      <obj_property name="ObjectShortName">ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/fuckingtime" type="array">
+      <obj_property name="ElementShortName">fuckingtime[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fuckingtime[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/timeup" type="logic">
+      <obj_property name="ElementShortName">timeup</obj_property>
+      <obj_property name="ObjectShortName">timeup</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/fuck" type="array">
+      <obj_property name="ElementShortName">fuck[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fuck[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/fucking" type="logic">
+      <obj_property name="ElementShortName">fucking</obj_property>
+      <obj_property name="ObjectShortName">fucking</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/intersteallar/shit" type="logic">
+      <obj_property name="ElementShortName">shit</obj_property>
+      <obj_property name="ObjectShortName">shit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/bitchfuck/digit" type="array">
+      <obj_property name="ElementShortName">digit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">digit[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fuckme/UUT/display" type="array">
+      <obj_property name="ElementShortName">display[15:0]</obj_property>
+      <obj_property name="ObjectShortName">display[15:0]</obj_property>
+   </wvobject>
+</wave_config>

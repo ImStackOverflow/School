@@ -1,0 +1,19 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/ghchen/lab5/lab5.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sim_1/new/fuckme.v,1526384359,verilog,,,,fuckme,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/LEDshifter.v,1526371191,verilog,,,,LEDshifter,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/countUD4L.v,1526363790,verilog,,,,countUD4L,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/fux4to1.v,1526363790,verilog,,,,fux4to1,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/fux8to1.v,1526363790,verilog,,,,fux8to1,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/hex7seg.v,1526363790,verilog,,,,hex7seg,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/lab5_clks.v,1526363795,verilog,,,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab5_clks,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/random.v,1526365522,verilog,,,,random,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/ringcounter.v,1526363790,verilog,,,,ringcounter,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/selector.v,1526363790,verilog,,,,selector,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/imports/Desktop/shit.v,1526383113,verilog,,,,shit,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/new/shitfuck.v,1526380558,verilog,,,,shitfuck,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/new/timeshit.v,1526379073,verilog,,,,timeshit,,,,,,,,
+C:/Users/ghchen/lab5/lab5.srcs/sources_1/new/topgun.v,1526384297,verilog,,,,topgun,,,,,,,,

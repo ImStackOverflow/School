@@ -13,7 +13,7 @@ dickLength = 25 #string lenght in cm
 #calculates a frequency given length
 #length is given in cm bitch
 def findFrequency(initialLengthBitch):
-	t = float(initialLengthBitch)/980
+	t = float(initial	LengthBitch)/980
 	t = t**(0.5)
 	t *= 2*3.14159
 	return 1/t
@@ -28,7 +28,7 @@ def generate():
 		f1 = int(initalFreq) 
 	#print("inital freq is: "+ str(f1))
 	for n in range(1,times):
-	   freq = n*f1
+	   freq = n*f1 
 	   k = 4 * 3.14**2 * freq**2 #length from frequency
 	   k = 980/k
 	   #j = 4 * 3.14**2 * (freq-1)**2 #old length

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testSyncs_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testSyncs" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="46750423730fs"></ZoomEndTime>
+      <Cursor1Time time="194062100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/testSyncs/btnC" type="logic">
+      <obj_property name="ElementShortName">btnC</obj_property>
+      <obj_property name="ObjectShortName">btnC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/btnD" type="logic">
+      <obj_property name="ElementShortName">btnD</obj_property>
+      <obj_property name="ObjectShortName">btnD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/btnL" type="logic">
+      <obj_property name="ElementShortName">btnL</obj_property>
+      <obj_property name="ObjectShortName">btnL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/btnU" type="logic">
+      <obj_property name="ElementShortName">btnU</obj_property>
+      <obj_property name="ObjectShortName">btnU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/clkin" type="logic">
+      <obj_property name="ElementShortName">clkin</obj_property>
+      <obj_property name="ObjectShortName">clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/vgaBlue" type="array">
+      <obj_property name="ElementShortName">vgaBlue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaBlue[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/vgaGreen" type="array">
+      <obj_property name="ElementShortName">vgaGreen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaGreen[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/vgaRed" type="array">
+      <obj_property name="ElementShortName">vgaRed[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vgaRed[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/HS" type="logic">
+      <obj_property name="ElementShortName">HS</obj_property>
+      <obj_property name="ObjectShortName">HS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/good_HS" type="logic">
+      <obj_property name="ElementShortName">good_HS</obj_property>
+      <obj_property name="ObjectShortName">good_HS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/oops" type="logic">
+      <obj_property name="ElementShortName">oops</obj_property>
+      <obj_property name="ObjectShortName">oops</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/rgb_oops" type="logic">
+      <obj_property name="ElementShortName">rgb_oops</obj_property>
+      <obj_property name="ObjectShortName">rgb_oops</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/VS" type="logic">
+      <obj_property name="ElementShortName">VS</obj_property>
+      <obj_property name="ObjectShortName">VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/good_VS" type="logic">
+      <obj_property name="ElementShortName">good_VS</obj_property>
+      <obj_property name="ObjectShortName">good_VS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/activeH" type="logic">
+      <obj_property name="ElementShortName">activeH</obj_property>
+      <obj_property name="ObjectShortName">activeH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/activeV" type="logic">
+      <obj_property name="ElementShortName">activeV</obj_property>
+      <obj_property name="ObjectShortName">activeV</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/GUT/SERRORS" type="array">
+      <obj_property name="ElementShortName">SERRORS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SERRORS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/RUT/RGBERRORS" type="array">
+      <obj_property name="ElementShortName">RGBERRORS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RGBERRORS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/vertdick/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/vertdick/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/vertdick/out" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">out[9:0]</obj_property>
+      <obj_property name="label">vertical</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/vertdick/upit" type="logic">
+      <obj_property name="ElementShortName">upit</obj_property>
+      <obj_property name="ObjectShortName">upit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/horizon/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/horizon/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/horizon/out" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">out[9:0]</obj_property>
+      <obj_property name="label">horizontal</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/foeplay/horizon/upit" type="logic">
+      <obj_property name="ElementShortName">upit</obj_property>
+      <obj_property name="ObjectShortName">upit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/showshit" type="logic">
+      <obj_property name="ElementShortName">showshit</obj_property>
+      <obj_property name="ObjectShortName">showshit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/crossing/horizontal" type="array">
+      <obj_property name="ElementShortName">horizontal[9:0]</obj_property>
+      <obj_property name="ObjectShortName">horizontal[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/crossing/vert" type="array">
+      <obj_property name="ElementShortName">vert[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vert[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/crossing/blue" type="array">
+      <obj_property name="ElementShortName">blue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/crossing/red" type="array">
+      <obj_property name="ElementShortName">red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">red[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testSyncs/UUT/shit/b" type="array">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

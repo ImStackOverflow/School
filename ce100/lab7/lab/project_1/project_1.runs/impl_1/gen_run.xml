@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1527850410">
+  <File Type="PWROPT-DRC" Name="topoffmydick_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="topoffmydick_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="topoffmydick_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="topoffmydick_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="topoffmydick.tcl"/>
+  <File Type="OPT-HWDEF" Name="topoffmydick.hwdef"/>
+  <File Type="RDI-RDI" Name="topoffmydick.vdi"/>
+  <File Type="OPT-DCP" Name="topoffmydick_opt.dcp"/>
+  <File Type="OPT-DRC" Name="topoffmydick_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="topoffmydick_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="topoffmydick_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="topoffmydick_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="topoffmydick_placed.dcp"/>
+  <File Type="PLACE-IO" Name="topoffmydick_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="topoffmydick_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="topoffmydick_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="topoffmydick_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="topoffmydick_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="topoffmydick_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="topoffmydick_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="topoffmydick_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="topoffmydick_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="topoffmydick_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="topoffmydick_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="topoffmydick_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="topoffmydick_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="topoffmydick_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="topoffmydick_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="topoffmydick_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="topoffmydick_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="topoffmydick_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="topoffmydick.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="topoffmydick_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="topoffmydick.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="topoffmydick_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="topoffmydick.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="topoffmydick_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="topoffmydick.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="topoffmydick_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="topoffmydick_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="topoffmydick_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="topoffmydick_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="topoffmydick_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="topoffmydick_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="topoffmydick_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="topoffmydick_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="topoffmydick_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="topoffmydick_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="topoffmydick_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="topoffmydick_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="topoffmydick_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="topoffmydick_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="topoffmydick_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="topoffmydick.bit"/>
+  <File Type="BITSTR-RBT" Name="topoffmydick.rbt"/>
+  <File Type="BITSTR-NKY" Name="topoffmydick.nky"/>
+  <File Type="BITSTR-BMM" Name="topoffmydick_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="topoffmydick.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="topoffmydick.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/fux4to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../New folder/fux4to1.v"/>
+        <Attr Name="ImportTime" Val="1527830860"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/countUD5L.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../countUD5L.v"/>
+        <Attr Name="ImportTime" Val="1527017204"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/fux8to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../New folder/fux8to1.v"/>
+        <Attr Name="ImportTime" Val="1527830860"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/diezbit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/diezbit.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/russia.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/selector.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../New folder/selector.v"/>
+        <Attr Name="ImportTime" Val="1527830868"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/ringcounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../New folder/ringcounter.v"/>
+        <Attr Name="ImportTime" Val="1527830866"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/hex7seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../New folder/hex7seg.v"/>
+        <Attr Name="ImportTime" Val="1527830863"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/playa.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/playa.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/edgeD.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../edgeD.v"/>
+        <Attr Name="ImportTime" Val="1527017209"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/steakmachine.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/drawline.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fuckingtimer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/playerbitch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/playerbitch.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/timeshit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/timeshit.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sync.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/sync.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/lab7_clks.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7_clks.v"/>
+        <Attr Name="ImportTime" Val="1527018955"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/border.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/border.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dickplay.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/dickplay.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/topoffmydick.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab7/lab7.srcs/sources_1/new/topoffmydick.v"/>
+        <Attr Name="ImportTime" Val="1527792405"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="topoffmydick"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1527017343"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="VerboseBool">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

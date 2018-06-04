@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu May 03 13:01:11 2018
+# Process ID: 8140
+# Current directory: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/top.vds
+# Journal file: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

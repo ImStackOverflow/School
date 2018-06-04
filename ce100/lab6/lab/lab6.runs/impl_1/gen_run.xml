@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1526584332">
+  <File Type="PWROPT-DRC" Name="topdawg_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="topdawg_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="topdawg_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="topdawg_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="topdawg.tcl"/>
+  <File Type="OPT-HWDEF" Name="topdawg.hwdef"/>
+  <File Type="RDI-RDI" Name="topdawg.vdi"/>
+  <File Type="OPT-DCP" Name="topdawg_opt.dcp"/>
+  <File Type="OPT-DRC" Name="topdawg_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="topdawg_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="topdawg_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="topdawg_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="topdawg_placed.dcp"/>
+  <File Type="PLACE-IO" Name="topdawg_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="topdawg_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="topdawg_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="topdawg_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="topdawg_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="topdawg_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="topdawg_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="topdawg_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="topdawg_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="topdawg_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="topdawg_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="topdawg_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="topdawg_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="topdawg_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="topdawg_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="topdawg_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="topdawg_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="topdawg_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="topdawg.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="topdawg_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="topdawg.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="topdawg_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="topdawg.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="topdawg_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="topdawg.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="topdawg_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="topdawg_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="topdawg_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="topdawg_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="topdawg_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="topdawg_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="topdawg_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="topdawg_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="topdawg_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="topdawg_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="topdawg_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="topdawg_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="topdawg_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="topdawg_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="topdawg_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="topdawg.bit"/>
+  <File Type="BITSTR-RBT" Name="topdawg.rbt"/>
+  <File Type="BITSTR-NKY" Name="topdawg.nky"/>
+  <File Type="BITSTR-BMM" Name="topdawg_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="topdawg.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="topdawg.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/fux4to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fux4to1.v"/>
+        <Attr Name="ImportTime" Val="1526363790"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/countUD4L.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../countUD4L.v"/>
+        <Attr Name="ImportTime" Val="1526363790"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/fux8to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../fux8to1.v"/>
+        <Attr Name="ImportTime" Val="1526363790"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/edgeD.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../edgeD.v"/>
+        <Attr Name="ImportTime" Val="1526510211"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TIMEBITCH.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/lab6_clks.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab6_clks.v"/>
+        <Attr Name="ImportTime" Val="1526413735"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/selector.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../selector.v"/>
+        <Attr Name="ImportTime" Val="1526363790"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fuckingsteak.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/score.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/ringcounter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ringcounter.v"/>
+        <Attr Name="ImportTime" Val="1526363790"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/countTIME.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/hex7seg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../hex7seg.v"/>
+        <Attr Name="ImportTime" Val="1526363790"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/topdawg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="topdawg"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1526368135"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

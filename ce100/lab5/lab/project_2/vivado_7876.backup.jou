@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu May 10 12:15:25 2018
+# Process ID: 7876
+# Current directory: C:/Users/ghchen/Desktop/lab5/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7480 C:\Users\ghchen\Desktop\lab5\project_2\project_2.xpr
+# Log file: C:/Users/ghchen/Desktop/lab5/project_2/vivado.log
+# Journal file: C:/Users/ghchen/Desktop/lab5/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ghchen/Desktop/lab5/project_2/project_2.xpr
+launch_simulation
+import_files -force -norecurse C:/Users/ghchen/Downloads/lab5_clks.v

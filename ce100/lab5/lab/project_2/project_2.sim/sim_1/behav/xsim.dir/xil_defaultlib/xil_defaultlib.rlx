@@ -1,0 +1,22 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sim_1/imports/Desktop/cockring.v,1525982438,verilog,,,,cockring,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sim_1/new/time.v,1525983781,verilog,,,,timeed,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/countUD4L.v,1525979235,verilog,,,,countUD4L,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/edgeD.v,1525983791,verilog,,,,edgeD,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/fux4to1.v,1525979235,verilog,,,,fux4to1,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/fux8to1.v,1525979235,verilog,,,,fux8to1,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/hex7seg.v,1525979235,verilog,,,,hex7seg,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/ringcounter.v,1525979235,verilog,,,,ringcounter,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Desktop/selector.v,1525979235,verilog,,,,selector,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/imports/Downloads/lab5_clks.v,1525979964,verilog,,,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab5_clks,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/LEDshifter.v,1525979235,verilog,,,,LEDshifter,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/StateoftheUnion.v,1525979235,verilog,,,,StateoftheUnion,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/fuckingTIME.v,1525983040,verilog,,,,fuckingTIME,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/fuckingdisplay.v,1525979235,verilog,,,,fuckingdisplay,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/playershit.v,1525982489,verilog,,,,playershit,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/random.v,1525983199,verilog,,,,random,,,,,,,,
+C:/Users/ghchen/Desktop/lab5/project_2/project_2.srcs/sources_1/new/topgun.v,1525980337,verilog,,,,topgun,,,,,,,,

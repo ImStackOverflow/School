@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Wed May 02 15:47:40 2018
+# Process ID: 4232
+# Current directory: C:/Users/ghchen/Desktop/lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5004 C:\Users\ghchen\Desktop\lab4\lab4.xpr
+# Log file: C:/Users/ghchen/Desktop/lab4/vivado.log
+# Journal file: C:/Users/ghchen/Desktop/lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ghchen/Desktop/lab4/lab4.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/ghchen/Desktop/lab4/lab4.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 671.066 ; gain = 122.547
+add_files -fileset constrs_1 -norecurse C:/Users/ghchen/Desktop/ass/Basys3_Master.xdc
+import_files -fileset constrs_1 C:/Users/ghchen/Desktop/ass/Basys3_Master.xdc
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {C:/Users/ghchen/Desktop/ass/testTC.v C:/Users/ghchen/Desktop/ass/lab4tests.v}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed May 02 15:49:00 2018] Launched synth_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/runme.log
+[Wed May 02 15:49:00 2018] Launched impl_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed May 02 15:49:59 2018] Launched synth_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/runme.log
+[Wed May 02 15:49:59 2018] Launched impl_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed May 02 15:51:26 2018] Launched synth_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/runme.log
+[Wed May 02 15:51:26 2018] Launched impl_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed May 02 15:53:05 2018] Launched synth_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/runme.log
+[Wed May 02 15:53:05 2018] Launched impl_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed May 02 15:53:51 2018] Launched synth_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/runme.log
+[Wed May 02 15:53:51 2018] Launched impl_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/impl_1/runme.log
+add_files -norecurse {C:/Users/ghchen/Desktop/lab4/lab4.srcs/sources_1/new/edgeD.v C:/Users/ghchen/Desktop/lab4/lab4.srcs/sources_1/new/top.v C:/Users/ghchen/Desktop/lab4/lab4.srcs/sources_1/new/lab4_clks.v C:/Users/ghchen/Desktop/lab4/lab4.srcs/sources_1/new/selector.v C:/Users/ghchen/Desktop/lab4/lab4.srcs/sources_1/new/hex7seg.v C:/Users/ghchen/Desktop/lab4/lab4.srcs/sources_1/new/ring.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed May 02 16:01:08 2018] Launched synth_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/runme.log
+[Wed May 02 16:01:08 2018] Launched impl_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Wed May 02 16:02:01 2018] Launched synth_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/synth_1/runme.log
+[Wed May 02 16:02:01 2018] Launched impl_1...
+Run output will be captured here: C:/Users/ghchen/Desktop/lab4/lab4.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 02 16:02:53 2018...
