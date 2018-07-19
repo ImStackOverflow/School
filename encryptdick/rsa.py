@@ -7,7 +7,8 @@ COCKLENGTH = BITCHLENGTH*2 #block length message is broken up into
 def generatePrime():
     ass = random.getrandbits(256) #generate random 256 bit number
     ass | 1 #make it odd
-    dick.miller_rabin(ass, 1000) #make sure that shit prime
+    if !dick.miller_rabin(ass, 1000): #make sure that shit prime
+	return generatePrime()
     return ass
 
 def makeData(p, q):
@@ -23,6 +24,23 @@ def makeData(p, q):
         'modulus' : p*q
      }
     return dick
+
+
+#wrapper function
+#takes in message file, key
+def encrypt(message, pubic, encrypted):  
+    try:
+        dick = open(message, 'rb')
+        return fuckmeup(dick, pubic)
+    except OSError:
+        print('not a real file fuker to encrypt')
+    except:
+        print('error in encryption fucker')
+
+
+
+def fuckmeup(message, key):  #heavy lifting of the real shit
+    while 
 
 if __name__ == '__main__':
     ass = generatePrime()
