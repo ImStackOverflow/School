@@ -7,7 +7,7 @@ COCKLENGTH = BITCHLENGTH*2 #block length message is broken up into
 def generatePrime():
     ass = random.getrandbits(256) #generate random 256 bit number
     ass | 1 #make it odd
-    if !dick.miller_rabin(ass, 1000): #make sure that shit prime
+    if dick.miller_rabin(ass, 1000) != True: #make sure that shit prime
 	return generatePrime()
     return ass
 
@@ -40,7 +40,9 @@ def encrypt(message, pubic, encrypted):
 
 
 def fuckmeup(message, key):  #heavy lifting of the real shit
-    while 
+    byte = message.read(COCKLENGTH)
+    while byte != "": 
+        
 
 if __name__ == '__main__':
     ass = generatePrime()
