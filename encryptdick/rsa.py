@@ -1,16 +1,21 @@
 import miller_rabin as dick
-import random
+import random, struct
 
 BITCHLENGTH = 64 #bits in each prime final key is twice the length 
-COCKLENGTH = BITCHLENGTH*2 #block length message is broken up into
+COCKLENGTH = BITCHLENGTH*2 - 1 #block length message is broken up into
+
+
+
 
 def generatePrime():
-    ass = random.getrandbits(256) #generate random 256 bit number
+    ass = random.getrandbits(BITCHLENGTH) #generate random number
     ass | 1 #make it odd
     if dick.miller_rabin(ass, 1000) != True: #make sure that shit prime
-	return generatePrime()
+	   return generatePrime()
     return ass
 
+#function to generate e, d, and n from 2 primes p and q
+#returns dict with data inside
 def makeData(p, q):
 
     #make private key
@@ -24,7 +29,7 @@ def makeData(p, q):
         'modulus' : p*q
      }
     return dick
-
+    
 
 #wrapper function
 #takes in message file, key
@@ -40,8 +45,16 @@ def encrypt(message, pubic, encrypted):
 
 
 def fuckmeup(message, key):  #heavy lifting of the real shit
-    byte = message.read(COCKLENGTH)
-    while byte != "": 
+    while true:
+        byte = message.read(COCKLENGTH)
+        if !byte: #end of file, pad and continue encrypting
+            byte << COCKLENGTH - sys.getsizeof(byte) 
+        bits = struct.unpack('i' * COCKLENGTH, byte) #gives each message chunk as bits
+        print bits
+
+    print 'eat my penis'
+
+
         
 
 if __name__ == '__main__':
